@@ -1,7 +1,22 @@
 .footer {
-  background-color: var(--text-dark);
+  background: var(--background-dark);
   color: var(--white);
-  padding: 4rem 0 2rem;
+  padding: 5rem 0 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+  z-index: 0;
+  pointer-events: none;
 }
 
 .footer-content {
@@ -9,6 +24,8 @@
   grid-template-columns: 1fr 2fr;
   gap: 4rem;
   margin-bottom: 3rem;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-brand {
@@ -30,11 +47,13 @@
 }
 
 .brand-info h3 {
-  font-size: 1.8rem;
-  font-weight: 200;
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 400;
   color: var(--accent-color);
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-style: italic;
 }
 
 .brand-info p {
@@ -58,12 +77,13 @@
 }
 
 .link-section h4 {
-  font-size: 1rem;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
   font-weight: 400;
   color: var(--accent-color);
   margin-bottom: 1.5rem;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  font-style: italic;
 }
 
 .link-section ul {
@@ -111,8 +131,10 @@
 }
 
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(212, 175, 55, 0.15);
   padding-top: 2rem;
+  position: relative;
+  z-index: 1;
 }
 
 .footer-bottom-content {
