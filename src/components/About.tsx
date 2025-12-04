@@ -29,7 +29,7 @@ const About: React.FC = () => {
       <div className="container">
         <div className="about-content fade-in" ref={aboutRef}>
           <div className="about-header">
-            <h2 className="section-title">About Ayso</h2>
+            <h2 className="section-title">About Royal Kapsalon</h2>
             <p className="section-subtitle">
               Where artistry meets elegance in the heart of Leuven
             </p>
@@ -40,7 +40,7 @@ const About: React.FC = () => {
               <div className="about-story">
                 <h3>Our Story</h3>
                 <p>
-                  At Ayso, we believe that exceptional hair care is an art form. 
+                  At Royal Kapsalon, we believe that exceptional hair care is an art form. 
                   Our salon represents the perfect blend of contemporary style and 
                   timeless elegance, creating an environment where every client 
                   feels truly special.
@@ -76,7 +76,7 @@ const About: React.FC = () => {
               <div className="image-container">
                 <img 
                   src={scissorsImage} 
-                  alt="Professional hair styling at Ayso salon" 
+                  alt="Professional hair styling at Royal Kapsalon" 
                   className="about-img"
                 />
               </div>
@@ -84,7 +84,7 @@ const About: React.FC = () => {
               <div className="image-container">
                 <img 
                   src={toolsImage} 
-                  alt="Hair care and styling at Ayso salon" 
+                  alt="Hair care and styling at Royal Kapsalon" 
                   className="about-img"
                 />
               </div>
@@ -94,7 +94,7 @@ const About: React.FC = () => {
           <div className="about-cta">
             <div className="cta-content">
               <h3>Experience the Difference</h3>
-              <p>Discover why Ayso is Leuven's premier destination for luxury hair care</p>
+              <p>Discover why Royal Kapsalon is Leuven's premier destination for luxury hair care</p>
               <a href="tel:+32487366679" className="btn btn-primary">
                 Book Your Appointment
               </a>

@@ -20,9 +20,9 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-brand">
             <div className="brand-info">
-              <img src={logoImage} alt="Ayso Logo" className="footer-logo" />
+              <img src={logoImage} alt="Royal Kapsalon Logo" className="footer-logo" />
               <div>
-                <h3>Ayso</h3>
+                <h3>Royal Kapsalon</h3>
                 <p>Luxury Hair Salon</p>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               <h4>Contact</h4>
               <ul>
                 <li><a href="tel:+32487366679">+32 487 36 66 79</a></li>
-                <li><a href="mailto:info@ayso.be">info@ayso.be</a></li>
+                <li><a href="mailto:info@royalkapsalon.be">info@royalkapsalon.be</a></li>
                 <li><span>Leuven Center</span></li>
               </ul>
             </div>
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
         
         <div className="footer-bottom">
           <div className="footer-bottom-content">
-            <p>&copy; 2024 Ayso Hair Salon. All rights reserved.</p>
+            <p>&copy; 2024 Royal Kapsalon. All rights reserved.</p>
             <div className="footer-actions">
               <button onClick={scrollToTop} className="back-to-top">
                 Back to Top

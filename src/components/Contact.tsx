@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
               <div className="info-section">
                 <h3>Location</h3>
                 <div className="address">
-                  <p><strong>Ayso Hair Salon</strong></p>
+                  <p><strong>Royal Kapsalon</strong></p>
                   <p>Leuven Center</p>
                   <p>3000 Leuven, Belgium</p>
                 </div>
@@ -72,7 +72,7 @@ const Contact: React.FC = () => {
                   
                   <div className="contact-item">
                     <span className="contact-label">Email</span>
-                    <a href="mailto:info@ayso.be" className="contact-value">info@ayso.be</a>
+                    <a href="mailto:info@royalkapsalon.be" className="contact-value">info@royalkapsalon.be</a>
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Ayso Hair Salon Location in Leuven"
+                  title="Royal Kapsalon Location in Leuven"
                 ></iframe>
               </div>
               

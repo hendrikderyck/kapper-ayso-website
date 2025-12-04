@@ -70,8 +70,8 @@ const Hero: React.FC = () => {
             </div>
             
             <h1 className="hero-title">
-              <span className="hero-line">Ayso</span>
-              <span className="hero-line">Leuven</span>
+              <span className="hero-line">Royal</span>
+              <span className="hero-line">Kapsalon</span>
             </h1>
             
             <p className="hero-subtitle">

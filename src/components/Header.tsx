@@ -31,8 +31,8 @@ const Header: React.FC = () => {
       <div className="container">
         <nav className="nav">
           <div className="nav-brand">
-            <img src={logoImage} alt="Ayso Logo" className="logo" />
-            <span className="brand-name">Ayso</span>
+            <img src={logoImage} alt="Royal Kapsalon Logo" className="logo" />
+            <span className="brand-name">Royal Kapsalon</span>
           </div>
           
           <ul className={`nav-menu ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
